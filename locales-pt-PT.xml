@@ -2,7 +2,7 @@
 <locale xmlns="http://purl.org/net/xbiblio/csl" version="1.0" xml:lang="pt-PT">
   <info>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
-    <updated>2025-05-01T02:34:23-04:00</updated>
+    <updated>2025-06-25T09:34:20+01:00</updated>
     <translator>
       <name>Jonadabe PT</name>
     </translator>
@@ -58,12 +58,12 @@
     <term name="circa" form="short">c.</term>
     <term name="cited">citado</term>
     <term name="first-reference-note-number">
-      <single>reference</single>
-      <multiple>references</multiple>
+      <single>referência</single>
+      <multiple>referências</multiple>
     </term>
     <term name="number">
-      <single>number</single>
-      <multiple>numbers</multiple>
+      <single>número</single>
+      <multiple>números</multiple>
     </term>
     <term name="edition">
       <single>edição</single>
@@ -141,8 +141,8 @@
     <term name="post-weblog">blog post</term>
     <term name="regulation">regulamento</term>
     <term name="report">relatório</term>
-    <term name="review">review</term>
-    <term name="review-book">book review</term>
+    <term name="review">crítica</term>
+    <term name="review-book">crítica do livro</term>
     <term name="software">software</term>
     <term name="song">gravação áudio</term>
     <term name="speech">discurso</term>
@@ -152,7 +152,7 @@
     <term name="webpage">webpage</term>
 
     <!-- SHORT ITEM TYPE FORMS -->
-    <term name="article-journal" form="short">journal art.</term>
+    <term name="article-journal" form="short">art. do jornal</term>
     <term name="article-magazine" form="short">mag. art.</term>
     <term name="article-newspaper" form="short">newspaper art.</term>
     <!-- book is in the list of locator terms -->
@@ -171,8 +171,9 @@
     <!-- VERB ITEM TYPE FORMS -->
     <!-- Only where applicable -->
     <term name="hearing" form="verb">testimony of</term>
-    <term name="review" form="verb">review of</term>
-    <term name="review-book" form="verb">review of the book</term>
+    <term name="review" form="verb" gender-form="masculine">crítica do</term>
+    <term name="review" form="verb" gender-form="feminine">crítica da</term>
+    <term name="review-book" form="verb">crítica do livro</term>
 
     <!-- HISTORICAL ERA TERMS -->
     <term name="ad">AD</term>
